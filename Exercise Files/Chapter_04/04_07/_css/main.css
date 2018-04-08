@@ -401,7 +401,15 @@ body.hasCrumbs #mainContent #mainArticle {
 	clear: both;
 }
 /*multicolumn text rule goes here*/
-
+#mainContent h3 + div{
+	column-count: 2;
+	text-align: justify;
+	font-size: 85%;
+	column-gap: 30px;
+	column-rule-style: solid;
+	column-rule-color: #999;
+	column-rule-width: 1px;
+}
 #mainContent #mainArticle p{
 	margin-bottom: 1em;
 }

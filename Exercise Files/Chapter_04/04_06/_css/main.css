@@ -46,7 +46,7 @@ consent of lynda.com is prohibited.*/
 	src: local('☠'), url('../_fonts/Chunkfive-webfont.woff') format('woff'), url('../_fonts/Chunkfive-webfont.ttf') format('truetype'), url('../_fonts/Chunkfive-webfont.svg#webfont4CzPTNtF') format('svg');
 	font-weight: normal;
 	font-style: normal;
-}
+} 
 
 /* ^1 --------------------------- global constants -------------------------*/
 html, body {
@@ -314,6 +314,7 @@ ul#baseNav ul.subNav li a.current{
 	margin: 0 0 .25em;
 	letter-spacing: 1px;
 	color: #193742;
+	text-shadow: 0 0 2px #fff,0 0 5px #ddd, 0 0 10px #ccc;
 }
 #mainContent p{
 	font-size: 1em;
@@ -608,9 +609,7 @@ body.hasCrumbs #mainContent #mainArticle {
 #mainContent #mainInfo {
 	padding: 16px 25px;
 	width: 583px;
-	background: #e1d8b9;
-	background: -webkit-gradient(linear,left top,left bottom,color-stop(0, rgba(233,229,212,0.85)), color-stop(1, rgba(191,178,147,0.95)));
-	background:-moz-linear-gradient(center top, rgba(233,229,212,0.85) 0%, rgba(191,178,147,0.95) 100%);
+	background: #952;
 	-webkit-border-top-left-radius: 0px;
 	-webkit-border-top-right-radius: 0px;
 	-webkit-border-bottom-right-radius: 0px;
